@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "aufgabe_1",
+      "name": "Aufgabe 1",
+      "description": "Dies ist eine Aufgabenbeschreibung",
+      "completed": false
+    },
+    {
+      "id": "aufgabe_2",
+      "name": "Aufgabe 2",
+      "description": "Noch ne Aufgabenbeschreibung",
+      "completed": false
+    },
+    {
+      "id": "aufgabe_3",
+      "name": "Aufgabe 3",
+      "description": "Eine abgeschlossene Aufgabe",
+      "completed": true
+    }
+  ]
+}
