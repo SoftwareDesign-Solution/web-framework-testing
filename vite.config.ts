@@ -16,5 +16,11 @@ export default defineConfig({
       "cypress/**/*.cy.ts",
       "src/**/*.cy.ts"
     ]
+  },
+  build: {
+    external: [
+      "cypress/**/*.cy.ts",
+      "src/**/*.cy.ts"
+    ]
   }
 })
