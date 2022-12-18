@@ -10,5 +10,11 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  test: {
+    exclude: [
+      "cypress/**/*.cy.ts",
+      "src/**/*.cy.ts"
+    ]
   }
 })
